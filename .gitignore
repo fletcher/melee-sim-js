@@ -6,3 +6,4 @@ node_modules
 .vscode/settings.json
 .vscode/settings.json
 melee-sim-js.v12.suo
+.DS_Store

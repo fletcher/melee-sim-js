@@ -1,36 +1,38 @@
 define(function () {
     "use strict";
     // Start with the constructor
-    function Shield(name, hitsStopped, dxAdj) {
+    function Armor(name, hitsStopped, maAdj, dxAdj) {
         this.name = name;
         this._hitsStopped = hitsStopped;
+        this.maAdj = maAdj;
         this.dxAdj = dxAdj;
     }
 
     // Now add methods
-    Shield.prototype.getName = function () {
+    Armor.prototype.getName = function () {
         return this.name;
     };
 
-    Shield.prototype.hitsStopped = function () {
+    Armor.prototype.hitsStopped = function () {
         return this._hitsStopped;
-    };
+    }
 
-    Shield.prototype.getDexAdjustment = function () {
+    Armor.prototype.getDexAdjustment = function () {
         return this.dxAdj;
-    };
+    }
 
-    Shield.prototype.toString = function () {
+    Armor.prototype.toString = function () {
         return this.name + " (" + this._hitsStopped + ")";
     }
 
 
     // Automatically generated data
-    Shield.NO_SHIELD = new Shield("No shield", 0, 0);
-    Shield.FLIMSY_SHIELD = new Shield("Flimsy Shield", 1, 0);
+{{#.}}
+    Armor.{{ID}} = new Armor("{{Name}}", {{HitsStopped}}, {{MAAdj}}, {{DXAdj}});
+{{/.}}
 
 
     // And now return the constructor function
-    return Shield;
+    return Armor;
 });
 

@@ -1,0 +1,14 @@
+[
+	{
+		"ID": "NO_SHIELD",
+		"Name": "No shield",
+		"HitsStopped": 0,
+		"DXAdj": 0
+	},
+	{
+		"ID": "FLIMSY_SHIELD",
+		"Name": "Flimsy Shield",
+		"HitsStopped": 1,
+		"DXAdj": 0
+	}
+]

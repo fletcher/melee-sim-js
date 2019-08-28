@@ -26,8 +26,9 @@ define(function () {
 
 
     // Automatically generated data
-    Shield.NO_SHIELD = new Shield("No shield", 0, 0);
-    Shield.FLIMSY_SHIELD = new Shield("Flimsy Shield", 1, 0);
+{{#.}}
+    Shield.{{ID}} = new Shield("{{Name}}", {{HitsStopped}}, {{DXAdj}});
+{{/.}}
 
 
     // And now return the constructor function

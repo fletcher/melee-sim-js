@@ -1,0 +1,22 @@
+[
+	{
+		"ID": "NONE",
+		"Name": "None",
+		"MinST": 0,
+		"Dice": 0,
+		"Modifier": 0,
+		"TwoHands": 0,
+		"Thrown": 0,
+		"Pole": 0
+	},
+	{
+		"ID": "BAT",
+		"Name": "Baseball Bat",
+		"MinST": 7,
+		"Dice": 1,
+		"Modifier": -3,
+		"TwoHands": 0,
+		"Thrown": 0,
+		"Pole": 0
+	}
+]

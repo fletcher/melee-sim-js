@@ -1,0 +1,16 @@
+[
+	{
+		"ID": "NO_ARMOR",
+		"Name": "No armor",
+		"HitsStopped": 0,
+		"MAAdj": 0,
+		"DXAdj": 0
+	},
+	{
+		"ID": "MAX_ARMOR",
+		"Name": "Maximum Armor",
+		"HitsStopped": 6,
+		"MAAdj": 6,
+		"DXAdj": 6
+	}
+]

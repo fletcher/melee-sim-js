@@ -57,8 +57,9 @@ define(["./Die","./Logger"],function (Die, Logger) {
 
 
     // Automatically generated data
-    Weapon.NONE = new Weapon("None", 0, 0, 0, 0, 0, 0);
-    Weapon.BAT = new Weapon("Baseball Bat", 7, 1, -3, 0, 0, 0);
+{{#.}}
+    Weapon.{{ID}} = new Weapon("{{Name}}", {{MinST}}, {{Dice}}, {{Modifier}}, {{TwoHands}}, {{Thrown}}, {{Pole}});
+{{/.}}
 
 
     return Weapon;
